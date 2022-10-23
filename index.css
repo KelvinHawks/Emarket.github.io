@@ -1,0 +1,162 @@
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 0 35px;
+    height: 75px;
+}
+.navbar .title{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.navbar .title .fullstop{
+    padding: 0 5px;
+}
+.navbar .icon i{
+    color: chocolate;
+    font-size: 30px;
+}
+.title h1{
+    font-size: 35px;
+    color: chocolate;
+    letter-spacing: 0.35rem;
+}
+.fullstop p{
+    color: chocolate;
+    font-size: 35px;
+}
+/*search*/
+.input{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 75%;
+    margin: 0 auto 0 auto;
+}
+#search{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+#search article{
+    margin: 0 auto 0 auto;
+    padding-top: 35px;
+}
+
+/*
+.input{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}*/
+article input{
+    height: 30px;
+    /*margin: 0 auto 0 auto;*/
+    width: 600px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid gray;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+article button{
+    height: 34px;
+    width: 120px;
+    font-weight: bold;
+    border: 1px solid gray;
+    background: chocolate;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+/*popular items*/
+.popular-item{
+    height: 45px;
+    padding: 25px 35px 10px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.popular-item h1{
+    color: rgb(120, 233, 120);
+    font-size: 40px;
+}
+.popular-item a{
+    text-decoration: none;
+    color: rgb(120, 233, 120);
+    font-size: 30px;
+}
+
+/*items categories*/
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    padding: 25px;
+    margin: 0 auto 0 auto;
+    overflow-x: auto;
+}
+.container .content{
+    border-radius: 10px;
+    margin: 0 20px;
+    display: block;
+    min-width: 180px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    /*border: 1px solid black;*/
+    box-shadow: 5px 10px #888888;
+}
+#hero .image img{
+    height: 400px;
+    width: 100%;
+    border-radius: 15px;
+}
+#hero .image{
+    width: 75%;
+    padding-top: 45px;
+    margin: 0 auto;
+    height: 400px;
+    
+}
+
+.bottom-line{
+    padding: 35px;
+}
+hr{
+    width: 70%;
+    margin: 0 auto;
+    color: chocolate;
+}
+
+/*explore*/
+
+.explore{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.explore i{
+    padding: 25px;
+    font-size: 35px;
+    color: rgb(240, 105, 56);
+}
+.explore i:hover{
+    font-size: 40px;
+    transition: 0.5s;
+    color: orange;
+}

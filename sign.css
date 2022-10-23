@@ -1,0 +1,48 @@
+.header{
+    width: 85%;
+    margin: 35px auto 35px auto;
+}
+.header h1{
+    color: coral;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+.button button{
+    margin: 8px 0 8px 0;
+    height: 50px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+#blue{
+    background-color: rgb(1, 1, 53);
+}
+#skyblue{
+    background-color: rgb(6, 3, 207);
+}
+#green{
+    background-color: rgb(25, 163, 25);
+}
+span{
+    color: green;
+}
+.para-div{
+    width: 85%;
+    margin: 35px auto 35px auto;
+}
+.para-div p{
+    font-size: 20px;
+}
+.sign-in{
+    width: 85%;
+    margin:  35px auto 35px auto;
+}
+.sign-in h1{
+    color: green;
+}

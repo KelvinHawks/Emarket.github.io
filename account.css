@@ -1,0 +1,75 @@
+.nav-bar{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    background-color: #ddd;
+    width: 85%;
+    margin: 0 auto;
+}
+.image-div img{
+    border-radius: 50%;
+    padding: 35px;
+}
+.details{
+    display: block;
+}
+.details h1{
+    font-family: Rockwell Extra Bold;
+    font-size: 30px;
+}
+.details p{
+    font-family: Rockwell Extra Bold;
+    font-size: 20px;
+}
+
+/* sign-in */
+
+.sign-in{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+}
+.sign-in h1{
+    color: rgb(36, 35, 35);
+}
+.sign-in i{
+    padding:0 20px ;
+    color: rgb(107, 103, 103);
+}
+
+/* general */
+.gen-div{
+    width: 85%;
+    margin: 0 auto;
+    background-color: rgb(233, 229, 229);
+}
+.gen-div h1{
+    color: rgb(36, 35, 35);
+    font-family: Rockwell Extra Bold;
+}
+.gen-content{
+    text-align: center;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gen-cont-div{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+.gen-cont-div i{
+    padding: 0 20px;
+    color: rgb(107, 103, 103);
+}
+.gen-cont-div h1{
+    color: rgb(36, 35, 35);
+    font-family: Rockwell Extra Bold;
+}
