@@ -19,6 +19,9 @@
     color: chocolate;
     font-size: 30px;
 }
+#media-q{
+    display: none;
+}
 .title h1{
     font-size: 35px;
     color: chocolate;
@@ -29,13 +32,13 @@
     font-size: 35px;
 }
 /*search*/
-.input{
+/*.input{
     display: flex;
     align-items: center;
     align-content: center;
     width: 75%;
     margin: 0 auto 0 auto;
-}
+}*/
 #search{
     width: 100%;
     margin: 0 auto;
@@ -160,3 +163,108 @@ hr{
     transition: 0.5s;
     color: orange;
 }
+
+@media only screen and (max-width:700px) {
+    .navbar{
+        padding: 0 15px;
+        height: 10px;
+    }
+    .img-logo h1{
+        font-size: 15px;
+    }
+    #media-q{
+        display: block;
+        font-size: 20px;
+    }
+    #non-media-q{
+        display: none;
+    }
+    .title h1{
+        font-size: 20px;
+        letter-spacing: 0.15rem;
+    }
+    .navbar .title .fullstop{
+        padding: 0 3px;
+    }
+    .fullstop p{
+        font-size: 20px;
+    }
+    #search{
+        width: 100%;
+    }
+    article input{
+        width: 200px;
+    }
+    article button{
+        width: 75px;
+    }
+    .popular-item{
+        height: 15px;
+        padding: 10px 20px 5px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    #popular{
+        padding: 15px;
+    }
+    .popular-item h1{
+        color: rgb(120, 233, 120);
+        font-size: 20px;
+    }
+    .popular-item a{
+        text-decoration: none;
+        color: rgb(120, 233, 120);
+        font-size: 15px;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        padding: 15px;
+        margin: 0 auto 0 auto;
+        overflow-x: auto;
+    }
+    .container .content{
+        border-radius: 10px;
+        margin: 0 10px;
+        display: block;
+        min-width: 150px;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        /*border: 1px solid black;*/
+        box-shadow: 5px 10px #888888;
+    }
+    #hero .image img{
+        height: 200px;
+        width: 100%;
+        border-radius: 15px;
+    }
+    #hero .image{
+        width: 90%;
+        padding-top: 25px;
+        margin: 0 auto;
+        height: 200px;
+    }
+    .img-logo img{
+        width: 105px;
+        height: 95px;
+    }
+    hr{
+        display: none;
+    }
+    .explore{
+        width: 90%;
+    }
+    .explore i{
+        font-size: 20px;
+        padding: 0;
+    }
+    .explore i:hover{
+        font-size: 23px;
+    }
+    
+}
+

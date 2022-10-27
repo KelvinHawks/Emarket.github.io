@@ -73,3 +73,65 @@
     color: rgb(36, 35, 35);
     font-family: Rockwell Extra Bold;
 }
+@media only screen and (max-width:700px){
+    .nav-bar{
+        display: flex;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        background-color: #ddd;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .image-div img{
+        border-radius: 50%;
+        padding: 20px;
+        width: 10px;
+    }
+    .details{
+        display: block;
+    }
+    .details h1{
+        font-family: Rockwell Extra Bold;
+        font-size: 20px;
+    }
+    .details p{
+        font-family: Rockwell Extra Bold;
+        font-size: 13px;
+    }
+    
+    /* sign-in */
+    
+    .sign-in{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        width: 95%;
+        margin: 0 auto;
+    }
+    /* general */
+    .gen-div{
+        width: 95%;
+        margin: 0 auto;
+        background-color: rgb(233, 229, 229);
+    }
+    .gen-content{
+        text-align: center;
+        align-items: center;
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .gen-cont-div{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+    }
+    .gen-cont-div i{
+        padding: 0 13px;
+        color: rgb(107, 103, 103);
+    }
+}

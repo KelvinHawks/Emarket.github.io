@@ -60,3 +60,62 @@ hr{
     color: rgb(36, 35, 35);
     font-family: Rockwell Extra Bold;
 }
+@media only screen and (max-width:700px){
+    .navbar-div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        width: 95%;
+        margin: 0 auto;
+        background-color: rgb(233, 231, 231);
+    }
+    .navbar-div i{
+        padding: 0 20px;
+        font-size: 15px;
+    }
+    .header h1{
+        padding: 0 20px;
+        font-size: 15px;
+        font-family: Rockwell Extra Bold;
+    }
+    /*slider*/
+    .slider{
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    .slider h1{
+        padding: 0 20px;
+        color: rgb(36, 35, 35);
+        font-family: Rockwell Extra Bold;
+    }
+    .cat-description h1{
+        font-size: 18px;
+    }
+    #separator{
+        width: 20%;
+        margin: 0 0 0 45px;
+        text-align: left;
+        color: rgb(67, 128, 67);
+    }
+    hr{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .cat-content{
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    .cat-content i{
+        padding: 0 45px 0 15px;
+        font-size: 25px;
+        color: rgb(107, 103, 103);
+    }
+}

@@ -46,3 +46,35 @@ span{
 .sign-in h1{
     color: green;
 }
+@media only screen and (max-width:700px){
+    .header{
+        width: 95%;
+        margin: 35px auto;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .button button{
+        margin: 8px 0 8px 0;
+        height: 35px;
+        border: none;
+        color: #fff;
+        font-size: 10px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .para-div{
+        width: 95%;
+        margin: 35px auto;
+    }
+    .para-div p{
+        font-size: 10px;
+    }
+    .sign-in{
+        width: 95%;
+        margin: 35px auto;
+    }
+}
