@@ -76,7 +76,7 @@ article button{
     font-weight: bold;
     border: 1px solid gray;
     background: chocolate;
-    color: black;
+    color: #fff;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -99,6 +99,10 @@ article button{
     text-decoration: none;
     color: rgb(120, 233, 120);
     font-size: 30px;
+}
+.popular-item a:hover{
+    font-size: 37px;
+    transition: 0.5s;
 }
 
 /*items categories*/
@@ -211,6 +215,9 @@ hr{
     }
     .popular-item h1{
         color: rgb(120, 233, 120);
+        font-size: 20px;
+    }
+    .popular-item a:hover{
         font-size: 20px;
     }
     .popular-item a{

@@ -11,6 +11,10 @@
     width: 50%;
     margin: 0 auto;
 }
+.button a{
+    text-decoration: none;
+    color: #fff;
+}
 .button button{
     margin: 8px 0 8px 0;
     height: 50px;
@@ -42,6 +46,9 @@ span{
 .sign-in{
     width: 85%;
     margin:  35px auto 35px auto;
+}
+.sign-in a{
+    text-decoration: none;
 }
 .sign-in h1{
     color: green;
