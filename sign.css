@@ -84,4 +84,7 @@ span{
         width: 95%;
         margin: 35px auto;
     }
+    .sign-in h1{
+        font-size: 23px;
+    }
 }
