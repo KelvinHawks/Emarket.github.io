@@ -272,6 +272,11 @@ hr{
     .explore i:hover{
         font-size: 23px;
     }
-    
+    .explore{
+        margin: 30px auto;
+    }
+    .bottom-line{
+        padding: 0;
+    }
 }
 
