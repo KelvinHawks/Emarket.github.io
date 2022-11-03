@@ -63,9 +63,19 @@
     background-color: aqua;
     border-radius: 50px;
     color: rgb(39, 39, 39);
-   
-
-   
-   
+}
+@media only screen and (max-width:700px){
+    #title{
+        font-size: 15px;
+    }
+    .container{
+        width: 100%;
+    }
+    .container .items{
+        width: 120px;
+        padding: 4px 6px;
+        margin: 9px;
+    }
+    
 }
 
