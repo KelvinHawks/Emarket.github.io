@@ -28,6 +28,9 @@
     box-shadow: 5px 5px #b6b6b6;
     margin: 18px;
 }
+.items img{
+    width: 120px;
+}
 .container-div{
     text-align: start;
     line-height: 5px;
@@ -76,6 +79,8 @@
         padding: 4px 6px;
         margin: 9px;
     }
-    
+    .items img{
+        width: 100px;
+    }
 }
 
