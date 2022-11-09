@@ -31,14 +31,34 @@
     color: chocolate;
     font-size: 35px;
 }
-/*search*/
-/*.input{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    width: 75%;
-    margin: 0 auto 0 auto;
-}*/
+/*hidden links*/
+.mediaquery{
+    margin-top: 10px;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    background-color: rgb(195, 221, 212);
+    transition: var(--transition);
+    
+}
+.show-links{
+    height: 0;
+}
+.mediaquery a{
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+}
+.mediaquery i{
+    padding-right: 10px;
+    color: chocolate;
+}
+/* Media Query menu*/
+.mediaquery > div{
+    font-size: 15px;
+    margin-left: 150px;
+    padding: 8px 25px 8px 0;
+    font-family: sans-serif;
+}
 #search{
     width: 100%;
     margin: 0 auto;
@@ -175,6 +195,9 @@ hr{
     transition: 0.5s;
     color: orange;
 }
+.footer-container{
+    display: none;
+}
 
 @media only screen and (max-width:700px) {
     .navbar{
@@ -205,7 +228,7 @@ hr{
         width: 100%;
     }
     article input{
-        width: 200px;
+        width: 250px;
     }
     article button{
         width: 75px;
@@ -272,6 +295,8 @@ hr{
     }
     .explore{
         width: 90%;
+        margin: 30px auto;
+        display: none;
     }
     .explore i{
         font-size: 20px;
@@ -280,11 +305,32 @@ hr{
     .explore i:hover{
         font-size: 23px;
     }
-    .explore{
-        margin: 30px auto;
-    }
     .bottom-line{
         padding: 0;
     }
+    /*
+    .mediaquery{
+        overflow: visible;
+        height: 11rem; 
+    }*/
+    .show-links{
+        height: 11rem;
+    }
+    .footer-container{
+        display: block;
+        text-align: center;
+        line-height: 7px;
+    }
+    .footer h4{
+        color: chocolate;
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+    .developer h4{
+        color: rgb(98, 158, 98);
+        font-family: sans-serif;
+        font-size: 10px;
+    }
+    
 }
 
