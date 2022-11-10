@@ -143,7 +143,7 @@ article button{
     align-items: center;
     text-align: center;
     /*border: 1px solid black;*/
-    box-shadow: 5px 10px #888888;
+    box-shadow: 5px 5px 10px #686767;
 }
 .img-logo a{
     text-decoration: none;
@@ -273,7 +273,7 @@ hr{
         align-items: center;
         text-align: center;
         /*border: 1px solid black;*/
-        box-shadow: 5px 10px #888888;
+       
     }
     #hero .image img{
         height: 200px;
