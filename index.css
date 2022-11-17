@@ -40,9 +40,17 @@
     background-color: rgb(195, 221, 212);
     transition: var(--transition);
     
+    
 }
+/*.media-q[aria-expanded="true"]{
+    background-image: url("images/1200px-Cancel_icon.svg.png");
+}
+.mediaquery[data-visible="true"]{
+    transform: translateY(0%);
+}*/
 .show-links{
     height: 0;
+    
 }
 .mediaquery a{
     text-decoration: none;
