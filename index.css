@@ -1,3 +1,22 @@
+/* preloader */
+
+.preloader{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    visibility: visible;
+    z-index: 999;
+    transition: 0.5s;
+}
+.hide-preloader{
+    visibility: hidden;
+    z-index: -999;
+}
 /* navbar */
 .navbar{
     display: flex;
